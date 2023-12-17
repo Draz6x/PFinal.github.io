@@ -1,0 +1,321 @@
+/*@font-face {
+  font-family: Stanley;
+  src: url(../fonts/Stanley.otf);}
+/*Fuente "TACCA"*/
+
+/*.logo_container img{
+  width: 100px;
+}
+span{
+  font-weight: 200px;
+  position: relative; top: 10px;
+  font-size: 60px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}/*Logo ASCH*/
+
+/*.container_title h2{
+  font-size: 60px;
+  font-family: "Stanley", cursive;
+  text-transform: uppercase;
+  /*position: absolute; top: 10%;*/
+}
+/*____________Caracteristicas Descrpicion*/
+/*.dscrpcn{
+  /*position:absolute;top: 55%;*/
+  /*position: absolute;left: 1%;*/
+  /*background-color: rgba(248, 248, 248, 0.226);
+  width: 70%;
+}
+
+/*____________Caracteristicas Textos Informativos */
+
+/*.servicios{
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  /*position:absolute; top: 1000px;*/
+  /*width: 50%;
+ /* left: 30%*/;
+/*  font-family: 'Times New Roman', Times, serif;  
+ }
+
+.CS1{
+/*justify-content: center;*/
+ /* justify-content: center;
+  gap:60%; 
+  width: 100%;  
+  display: flex;
+ /* position: fixed;*/
+/* background-color: rgba(178, 224, 246, 0.897);
+  font-family: 'Times New Roman', Times, serif; 
+/* position: absolute; top: 13000px;*/
+/*position: absolute;*/
+/*flex-wrap: wrap;*/}
+
+/*.CS4{
+padding: 0%;
+justify-content: center;
+border-spacing: 100px;
+display: flex;
+/*position: fixed;*/
+/*font-family: 'Times New Roman', Times, serif; 
+/* position: absolute; top: 13000px;*/
+/*position: absolute;*/
+/*flex-wrap: wrap;
+  }
+.AVATAR{
+  height: 200px;
+  width: 200px;
+}
+
+
+/*____________Caracteristicas Generales Encabezados y parrafos */
+
+/*h1 {
+  font-weight: 100px;
+} /*grosor de Fuente H1*/
+
+/*h2 {
+  font-weight: 400px;
+  font-size: 90px;
+  font-family: 'Times New Roman', Times, serif;
+
+}/*tamaño de la Fuente & grosor de Fuente h2*/
+
+/*h3{
+  font-weight: 40px;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: #e0f2fff9;
+
+  
+} /*tamaño de la Fuente & grosor de Fuente h3*/
+/*h4{
+  font-weight: 40px;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: #ffffffdc;
+
+  
+}
+
+p {
+  font-weight: 30px;
+  font-size: 20px;
+}
+/*tamaño de la Fuente & grosor de Fuente P*/
+
+
+
+/*h1 {color:rgb(17, 23, 32)} /*color de Fuente*/
+
+/*div img.a1{
+width: 100%;
+}/*tamaño de imagenes especificas*/
+
+/*img{
+width:200px;
+}*/
+
+
+/*.from_control{
+  padding: 20px;
+} /*separación formulario*/
+/*.footer {
+ 
+  text-decoration-color: rgb(0, 0, 0);
+  width: 100%;
+
+}*/
+/*.wrapper {
+ /* background-color: rgb(133, 7, 7);*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+ /* transform: translate(-50%, -50%)*/
+ 
+/*}
+.wrapper ul{
+  list-style: none;
+}
+.wrapper ul li{
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  float: left;
+  transition: all 0.5s ease;
+}
+.wrapper ul li .fa{
+  color: black;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .facebook{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .fa-facebook{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .linkedin{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .fa-linkedin{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .twiter{
+  color: #000000;
+  text-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .instagram{
+  color: #000000;
+  text-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .google{
+  color: #000000;
+  text-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google{
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover .whatsapp{
+  color: #000000;
+  text-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp{
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+@media screen and(max-width: 640px){
+  .wrapper{
+      width: 350px;
+  }
+  .wrapper ul li {
+      margin-top: 10px;
+  }
+  .wrapper ul li.google{
+      margin-left: 60px;
+  }
+}
+
+/*Formulario*/
+/*.formulario{
+  background-color:rgb(0, 0, 0);
+  padding: 20px;
+}
+.seccion_contacto{
+  background: linear-gradient(
+      50deg,
+      rgba(40,42,55,1)50%
+      rgba(40,42,55,0.8)),
+      url(images/cardio.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 50px;
+      width: 1000px;
+      border-radius: 25px;
+
+}
+
+
+.created_by{
+  position: absolute;
+  left: 70%;
+}
+
+/*pagina Nosotros*/
+/*.CTEAM img{
+  width: 100%;
+}
+.horarios {
+ display: flex; 
+padding-left: 30%;
+width: 200%;
+
+}
+
+/*Catalogo*/
+
+
+/*#store-container {
+  display: flex;
+  gap: 10px;
+}
+
+#store-container .item {
+  border: solid 1px #ccc;
+  padding: 20px;
+}
+
+#shopping-cart-container {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.item .title {
+  font-weight: bold;
+}
+.item .price {
+  color: green;
+  font-weight: bold;
+}
+.item div {
+  padding: 5px 0;
+}
+
+.total {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+button {
+  border: none;
+  background-color: rgb(28, 241, 99);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
